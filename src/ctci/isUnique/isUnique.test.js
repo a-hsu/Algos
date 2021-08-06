@@ -7,8 +7,8 @@ test("returns FALSE if string does not have unique characters ", () => {
 })
 
 test("returns TRUE if string has unique characters ", () => {
-    expect(isUnique("computer")).toBe(false)
-    expect(isUnique("Olympics")).toBe(false)
-    expect(isUnique("tacos")).toBe(false)
-    expect(isUnique("foil")).toBe(false)
+    expect(isUnique("computer")).toBe(true)
+    expect(isUnique("Olympics")).toBe(true)
+    expect(isUnique("tacos")).toBe(true)
+    expect(isUnique("foil")).toBe(true)
 })

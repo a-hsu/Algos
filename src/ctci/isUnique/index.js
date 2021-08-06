@@ -1,18 +1,11 @@
-// isUnique
-// Implement an algorithm to determine if a
-// string has all unique characters. What if you
-// cannot use additional data structures?
-
-function isUnique(s){
-
-// "HelloWorld!"
-// "Computer"
-// ""
-
-// Brute Force - Loop through each character checking each one with the rest
-//     of the string
-
-
-
+function isUnique(s) {
+  // Time Complexity - nlog(n)
+    s = s.toLowerCase().split("").sort()
+    for (let i = 0; i < s.length - 1; i++) {
+        if (s[i] === s[i + 1]) {
+            return false
+        }
+    }
+    return true
 }
 module.exports = isUnique
