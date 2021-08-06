@@ -1,0 +1,24 @@
+{
+    "name": "Algos",
+    "version": "1.0.0",
+    "description": "This repository is simply for personal algo practice. Every friday, I will post algos I solved for the week, their category, as well as my solution and test cases.",
+    "main": "index.js",
+    "scripts": {
+        "test": "jest",
+        "algoinit": "touch README.md index.js test.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/a-hsu/Algos.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/a-hsu/Algos/issues"
+    },
+    "homepage": "https://github.com/a-hsu/Algos#readme",
+    "devDependencies": {
+        "jest": "^27.0.6"
+    }
+}
