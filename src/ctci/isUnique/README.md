@@ -1,11 +1,4 @@
 # isUnique
-
-### Examples
-
-"HelloWorld!"
-"Computer"
-""
-
 ### Approaches
 
 - Brute Force - Loop through each character checking each one with the rest of the string
